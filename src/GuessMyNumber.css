@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 38vh;
+    width: 100vw;
+}
+
+.head {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+}
+
+.again {
+    padding: 20px 28px;
+    cursor: pointer;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 26px;
+    background-color: #fff;
+    color: black;
+    border: none;
+}
+
+.range {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding-top: 23px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 22px;
+    color: #fff;
+}
+
+/* Styles for screens up to 820px wide */
+@media screen and (max-width: 820px) {
+    header {
+        height: 34vh;
+    }
+
+    .head {
+        width: 100vw;
+    }
+
+    .again {
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .range {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+}
+
+/* Styles for screens up to 580px wide */
+@media screen and (max-width: 580px) {
+    header {
+        height: 30vh;
+    }
+
+    .head {
+        padding-top: 0;
+        width: 100vw;
+    }
+
+    .again {
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .range {
+        font-size: 11px;
+        padding-top: 8px;
+    }
+
+    .title {
+        font-size: 10px;
+    }
+}
+
+.segment {
+    width: 100vw;
+    height: 12px;
+    background-color: #fff;
+}
+
+.symbol {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 45px;
+    background-color: #fff;
+    color: black;
+    margin-left: 43%;
+}
+
+/* Styles for screens up to 820px wide */
+@media screen and (max-width: 820px) {
+    .symbol {
+        padding: 36px;
+        font-size: 38px;
+        margin-left: 40%;
+    }
+}
+
+/* Styles for screens up to 580px wide */
+@media screen and (max-width: 580px) {
+    .symbol {
+        padding: 40px;
+        font-size: 45px;
+        margin-left: 35%;
+    }
+}
+
+.one {
+    width: 100vw;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.container {
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.takenumber {
+    width: 230px;
+    height: 100px;
+    background-color: transparent;
+    border: 3px solid #fff;
+}
+
+input[type="number"] {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+}
+
+#subt {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 22px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 58px;
+    padding: 15px 20px;
+}
+
+.second-div {
+    line-height: 50px;
+}
+
+.situation {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+
+.remaining {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+
+.prevnumber {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+}
+
+.second-div span {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+}
+
+#emoji {
+    font-size: 25px;
+}
+
+/* Styles for screens up to 950px wide */
+@media screen and (max-width: 950px) {
+    .takenumber {
+        margin-top: 100px;
+    }
+
+    .second-div {
+        line-height: 40px;
+    }
+
+    .situation {
+        font-size: 22px;
+    }
+
+    .remaining {
+        font-size: 25px;
+    }
+
+    .prevnumber {
+        font-size: 13px;
+    }
+}
+
+/* Styles for screens up to 680px wide */
+@media screen and (max-width: 680px) {
+    .situation {
+        font-size: 14px;
+    }
+
+    .remaining {
+        font-size: 20px;
+    }
+
+    .prevnumber {
+        font-size: 10px;
+    }
+}
